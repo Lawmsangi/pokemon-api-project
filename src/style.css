@@ -1,0 +1,189 @@
+ @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&family=Lato:wght@300&family=Ubuntu:ital@1&display=swap');
+
+* {
+    list-style: none;
+    margin: 0;
+    font-size: 24px;
+    box-sizing: border-box;
+    font-family: Lato, Caveat;
+}
+
+
+body{
+    background-color: #6B705C;
+}
+
+img{
+    height: 300px;
+    width: 300px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 10vh;
+    background-color: #A5A58D;
+    position: sticky;
+    top: 0;
+    color: #fff;
+}
+
+.logo-container {
+    background-image: url(image/pokemon-logo.png);
+    background-size: contain;
+    height: 70px;
+    width:70px;
+    cursor: pointer;
+}
+
+header ul {
+    display: flex;
+    gap: 45px;
+    cursor: pointer;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 70px;
+  margin: 50px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 0;
+    border-radius: 5px;
+    background-color: #FFE8D6;
+}
+
+.name-content {
+    display: flex;
+    gap: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid #FFE8D6;
+}
+
+.like-btn {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+i:hover {
+    opacity: 0.3;
+}
+
+i:active  {
+   color: red;
+}
+
+
+.comment-btn,
+.add-comment-btn  {
+    cursor: pointer;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #A5A58D;
+    color: #fff;
+}
+
+.comment-btn:hover,
+.add-comment-btn:hover  {
+    background-color:#252425;
+    color: #eee;
+}
+
+.comment-btn:active,
+.add-comment-btn:active {
+    background-color: #6B705C;
+}
+
+footer {
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    background-color: #A5A58D;
+    color: #fff;
+}
+
+/* Comment section */
+.comment-container {
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10% 30%;
+  gap: 10px;
+  padding: 20px;
+  width: 40%;
+  background-color: transparent;
+  box-shadow: 0 0 15px #ebe8e8;
+    background-color: #DDBEA9;
+}
+
+.image-x{
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-x button{
+    position: absolute;
+    right: 31%;
+    align-self: flex-start;
+    justify-self: flex-end;
+    font-size: 33px;
+    color: #252425;
+    border: none;
+}
+
+.add-comment {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.add-comment-btn {
+    margin-bottom: 40px;
+}
+
+.name,
+.comment {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    resize: none;
+}
+
+.name:focus,
+.comment:focus{
+    outline: none;
+}
+
+
+.character {
+    display: flex;
+    gap: 123px;
+    border: 1px solid #CB997E;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.comment-item {
+    background-color: #CB997E;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.close {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
