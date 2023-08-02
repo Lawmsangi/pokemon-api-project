@@ -27,7 +27,7 @@ header {
     position: sticky;
     top: 0;
     color: #fff;
-    box-shadow: 5px 5px 5px #D4AF37;
+    box-shadow: 10px 10px 10px #C0C0C0;
 }
 
 .logo-container {
@@ -58,8 +58,9 @@ header ul {
     gap: 10px;
     padding: 20px 0;
     border-radius: 5px;
-    background-color: #9DCFEE;
-    border: 1px solid #D4AF37;
+    background-image: linear-gradient(to right, #B1EFFC, #6FDED7);
+    border: 1px solid #C0C0C0;
+    box-shadow: 10px 10px 10px #C0C0C0;
 }
 
 .name-content {
@@ -125,9 +126,9 @@ footer {
   gap: 10px;
   padding: 20px;
   width: 40%;
-  background-color: transparent;
-  border: 1px solid #D4AF37;
-    background-color: #9DCFEE;
+  border: 1px solid #C0C0C0;
+  box-shadow: 10px 10px 10px #C0C0C0;
+  background-image: linear-gradient(to right, #B1EFFC, #6FDED7);
 }
 
 .image-x{
@@ -172,13 +173,13 @@ footer {
 .character {
     display: flex;
     gap: 123px;
-    border: 1px solid #A7D9F9;
+    border: 1px solid #C0C0C0;
     padding: 10px;
     border-radius: 5px;
 }
 
 .comment-item {
-    background-color: #A7D9F9;
+    background-color: #C0C0C0;
     border-radius: 5px;
     margin: 5px;
     padding: 10px;
