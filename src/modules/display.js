@@ -31,7 +31,7 @@ const display = (pokemons,likes) =>  {
         
     showLike.innerHTML = `${likeCount}`
     likeBtn.innerHTML =  `<i class="fa-regular fa-heart"></i>`
-    commentBtn.innerHTML = `Comment`
+    commentBtn.innerHTML = `comment`
 
     likeBtn.addEventListener('click', async ()=> {
       await setLikes(item.id);

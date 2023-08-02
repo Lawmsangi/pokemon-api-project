@@ -57,7 +57,7 @@ header ul {
     align-items: center;
     gap: 10px;
     padding: 20px 0;
-    border-radius: 5px;
+    border-radius: 35px;
     background-image: linear-gradient(to right, #B1EFFC, #6FDED7);
     border: 1px solid #C0C0C0;
     box-shadow: 10px 10px 10px #C0C0C0;
@@ -66,9 +66,10 @@ header ul {
 .name-content {
     display: flex;
     gap: 10px;
-    padding: 5px;
+    padding: 10px;
     border-radius: 10px;
     border: 1px solid #D4AF37;
+    background-color: #fff;
 }
 
 .like-btn {
@@ -89,10 +90,10 @@ i:active  {
 .comment-btn,
 .add-comment-btn  {
     cursor: pointer;
-    padding: 5px 20px;
+    padding: 15px;
     border: none;
-    border-radius: 5px;
-    background-color: #00A0FF;
+    border-radius:25px;
+    background-color: #1DC9B4;
     color: #fff;
 }
 
