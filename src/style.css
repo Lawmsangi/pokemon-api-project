@@ -129,13 +129,14 @@ footer {
     flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-radius: 35px;
   margin: 10% 30%;
   gap: 10px;
   padding: 20px;
   width: 40%;
   border: 1px solid #C0C0C0;
   box-shadow: 10px 10px 10px #C0C0C0;
-  background-image: linear-gradient(to right, #B1EFFC, #6FDED7);
+  background: linear-gradient(-45deg, #636F75,#C8E6FA, #1A79FD);
 }
 
 .image-x{
