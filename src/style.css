@@ -59,7 +59,7 @@ header ul {
     padding: 20px 0;
     border-radius: 5px;
     background-color: #9DCFEE;
-    box-shadow: 5px 5px 10px #D4AF37;
+    border: 1px solid #D4AF37;
 }
 
 .name-content {
@@ -126,7 +126,7 @@ footer {
   padding: 20px;
   width: 40%;
   background-color: transparent;
-  box-shadow: 5px 5px 10px #D4AF37;
+  border: 1px solid #D4AF37;
     background-color: #9DCFEE;
 }
 
