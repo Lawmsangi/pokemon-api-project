@@ -76,7 +76,7 @@ const showComment = async (id) => {
       const commentItem = document.createElement('li');
       commentItem.className = "comment-item"
       commentItem.innerHTML = `<p>
-                                  ${newComment.creation_date} ${newComment.username}:${newComment.comment}
+                                  ${newComment.creation_date}: ${newComment.comment} by ${newComment.user}
                                 </p>`;
 
       commentList.appendChild(commentItem);
