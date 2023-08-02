@@ -1,5 +1,4 @@
 const sendComment = async (id,name,comment) => {
-    console.log(id,name,comment);
     const options = {
     method: 'POST',
     headers: {
