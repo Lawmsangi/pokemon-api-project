@@ -74,6 +74,7 @@ const showComment = async (id) => {
       const newComment = comments[comments.length - 1];
       const commentList = document.getElementById('comment-list');
       const commentItem = document.createElement('li');
+      commentItem.className = "comment-item"
       commentItem.innerHTML = `<p>
                                   ${newComment.creation_date} ${newComment.username}:${newComment.comment}
                                 </p>`;
