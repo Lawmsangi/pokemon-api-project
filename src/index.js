@@ -3,7 +3,7 @@ import getPokemon from './modules/getPokemon';
 import { getLikes } from './modules/like';
 import './style.css';
 
-const pokemonId = [1,4, 7, 10,13,16,19,21,25,28,31,34,37,41,47,49,52,55,59,62,65,68,71,74,79,82,85];
+const pokemonId = [197,150,282,133,300,151,39,1,4, 7, 10,13,16,19,21];
 
 async function fetchPokemons() {
   const pokemons = await Promise.all(
