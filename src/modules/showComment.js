@@ -59,7 +59,7 @@ const showComment = async (id) => {
     const commentItem = document.createElement('li');
     commentItem.className = "comment-item"
     commentItem.innerHTML = `<p>
-                                   <i class="fa-regular fa-comments"></i> ${comment.creation_date}: ${comment.comment} by ${comment.username}
+                                   <i class="fa-regular fa-comments"></i> ${comment.creation_date}: "${comment.comment}" by ${comment.username}
                                 </p>`;
 
     commentList.appendChild(commentItem);
@@ -76,7 +76,7 @@ const showComment = async (id) => {
       const commentItem = document.createElement('li');
       commentItem.className = "comment-item"
       commentItem.innerHTML = `<p>
-                                  ${newComment.creation_date}: ${newComment.comment} by ${newComment.user}
+                                  ${newComment.creation_date}: "${newComment.comment}" by ${newComment.user}
                                 </p>`;
 
       commentList.appendChild(commentItem);
