@@ -8,9 +8,8 @@
     font-family: Lato, Caveat;
 }
 
-
 body{
-    background-color: #C8E9FC;
+    background: linear-gradient(-55deg, #3FCAA0,#C8E6FA, #57DDA8);
 }
 
 img{
@@ -127,17 +126,17 @@ footer {
 .comment-container {
     display: flex;
     flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border-radius: 35px;
-  margin: 10% 30%;
-  gap: 10px;
-  padding: 20px;
-  width: 40%;
-  border: 1px solid #C0C0C0;
-  box-shadow: 10px 10px 10px #C0C0C0;
-  background: linear-gradient(-45deg, #636F75,#C8E6FA, #1A79FD);
-}
+    justify-content: center;
+    align-items: center;
+    border-radius: 35px;
+    margin: 10% 30%;
+    gap: 10px;
+    padding: 20px;
+    width: 40%;
+    border: 1px solid #C0C0C0;
+    box-shadow: 10px 10px 10px #C0C0C0;
+    background: linear-gradient(-45deg, #636F75,#C8E6FA, #1A79FD);
+    }
 
 .image-x{
     display: flex;
@@ -197,4 +196,112 @@ footer {
     background-color: transparent;
     border: none;
     cursor: pointer;
+}
+
+/* media queries */
+
+@media screen and (max-width: 768px) {
+
+    header {
+        max-width: 100%;
+         position: sticky;
+        top: 0;
+        height: 8vh;
+        box-shadow: none;
+        margin-bottom: 20px;
+    }
+
+    img{
+        height: 100px;
+        width: 100px;
+    }
+
+    .logo-container {
+        height: 50px;
+        width:50px;
+        left: 10px;
+        position: absolute;
+    }
+
+    header ul {
+        display: none;
+    }
+    .container {
+        display: grid;
+        grid-template-columns: repeat( 1, 200px);
+        align-items: center;
+        justify-content: center;
+        margin: 0px;
+    }
+
+    .card{
+        border-radius: 35px;
+        box-shadow: 5px 5px 5px #C0C0C0;
+    }
+
+    .name-content {
+        padding: 5px;
+    }
+   .name-content h2 {
+        font-size: 22px;
+    }
+
+    .comment-btn,
+    .add-comment-btn  {
+        padding: 5px 10px;
+        font-size: 22px;
+    }
+
+
+    .comment-container {
+        position: absolute;
+        top: 50%;
+        left: 20%;
+        transform: translate(-50%, -50%);
+        width: 80%;
+    }
+
+    .image-x button{
+        position: absolute;
+        right: 5%;
+    }
+
+    .add-comment {
+        display: flex;
+        gap: 5px;
+    }
+
+    .name,
+    .comment {
+        padding: 5px;
+        font-size: 20px;
+    }
+
+    .character {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        padding: 5px;
+        border: none;
+    }
+
+    .comment-item {
+        background-color: #C0C0C0;
+        border-radius: 5px;
+        margin: 5px;
+        padding: 10px;
+    }
+
+    .close {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    footer {
+        margin-top: 20px;
+    }
+
 }
