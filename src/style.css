@@ -228,7 +228,7 @@ footer {
     }
     .container {
         display: grid;
-        grid-template-columns: repeat( 1, 200px);
+        grid-template-columns: repeat( 1, 240px);
         align-items: center;
         justify-content: center;
         margin: 0px;
@@ -263,7 +263,7 @@ footer {
 
     .image-x button{
         position: absolute;
-        right: 5%;
+        right: 3%;
     }
 
     .add-comment {
